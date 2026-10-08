@@ -1,0 +1,11 @@
+{
+	"name": "mira-auto-clicker",
+	"private": true,
+	"type": "module",
+	"description": "Auto clicker com mira: extensão para Brave/Chrome e controle pelo terminal no macOS",
+	"bin": { "autoclick": "./autoclick.mjs" },
+	"scripts": {
+		"start": "node autoclick.mjs",
+		"zip": "rm -f loja/mira-chrome-web-store.zip && cd extensao && zip -r -X ../loja/mira-chrome-web-store.zip manifest.json background.js autoclick.js icons -x '*.DS_Store'"
+	}
+}

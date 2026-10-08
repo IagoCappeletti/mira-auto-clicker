@@ -1,0 +1,55 @@
+TEXTOS PARA A CHROME WEB STORE — copie e cole no painel do desenvolvedor
+==========================================================================
+
+ABA "PACOTE"
+  Envie: mira-chrome-web-store.zip (desta pasta)
+
+ABA "DETALHES DA LOJA" (Store listing)
+
+  Nome (vem do manifest): Mira – Auto Clicker
+
+  Resumo (vem do manifest, máx. 132 caracteres):
+    Clica sozinho num ponto da página. Clique no ícone para abrir o painel, marque o ponto e aperte Iniciar.
+
+  Descrição:
+    A Mira clica sozinha, sem parar, no ponto da página que você escolher.
+
+    Como usar
+    1. Clique no ícone da Mira (ou use Alt+Shift+A) para abrir o painel na aba.
+    2. Passe o mouse sobre o ponto e aperte M, ou clique em "Marcar ponto" e depois no ponto.
+    3. Escolha o intervalo e aperte Iniciar. Para parar, aperte Parar.
+
+    Recursos
+    • Mira visível no ponto marcado, que dá para arrastar ou ajustar pixel a pixel com as setas do teclado
+    • Intervalo livre, com atalhos de 50, 100, 250 e 500 ms e 1 s
+    • Contador de cliques e de cliques por segundo
+    • Painel que se arrasta, recolhe e sai da frente do ponto sozinho
+    • Lembra o ponto e o intervalo de cada site
+
+    Privacidade
+    A Mira não coleta, não envia e não guarda nenhum dado fora do seu navegador.
+    Ele só acessa a aba em que você clicou no ícone.
+
+  Categoria: Ferramentas (Productivity > Tools)
+  Idioma: Português (Brasil)
+
+  Imagens (todas nesta pasta):
+    Ícone da loja 128x128 ......... ../extensao/icons/128.png
+    Capturas de tela 1280x800 ..... print-1-clicando.png, print-2-marcando.png
+    Bloco promocional 440x280 ..... divulgacao-440x280.png
+
+ABA "PRÁTICAS DE PRIVACIDADE" (Privacy practices)
+
+  Finalidade única (single purpose):
+    Clicar automaticamente, no intervalo escolhido pelo usuário, num ponto da página que o próprio usuário marca.
+
+  Justificativa da permissão activeTab:
+    A extensão só acessa a aba atual quando o usuário clica no ícone ou usa o atalho, para abrir nela o painel da Mira.
+
+  Justificativa da permissão scripting:
+    Usada para colocar na aba o painel e o script que dispara os cliques, somente depois que o usuário clica no ícone.
+
+  Usa código remoto? Não.
+
+  Uso de dados: não marque nenhuma categoria (a extensão não coleta nada)
+  e marque as três declarações de conformidade.
